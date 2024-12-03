@@ -1,0 +1,950 @@
+{
+    "took": 186,
+    "timed_out": false,
+    "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 737618,
+      "max_score": null,
+      "hits": []
+    },
+    "aggregations": {
+      "eventids": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [
+          {
+            "key": "e3548359-39c5-4e2e-b333-7fa89c2f29b0",
+            "doc_count": 103464,
+            "eventdurationavg": {
+              "value": 153243.7044672543
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 103464,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "4m6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "db",
+                      "event_name": "db.inventory_check",
+                      "parent_id": "44925ac4-cdc8-4921-91bc-1d3f0a4ec24c"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "2dacd86a-c278-40b6-a006-6ef28f2aef01",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 173822.56532326195
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "4G6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "external",
+                      "event_name": "push.notification",
+                      "parent_id": "aa77e5a6-b870-42d5-9b58-38ed3e696d5b"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "6c76d65d-7107-4d4f-835f-e8b1a49918d5",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 1991989.7409680465
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "4W6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "transaction",
+                      "event_subtype": "checkout",
+                      "event_name": "checkout"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "7950ab1f-bbfa-47ef-8e75-a21ab56d2702",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 402093.97574914276
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "3G6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "user.profile.update",
+                      "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "80e8e4dd-6f67-4215-806f-92df2f6b6e7c",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 140102.02320727526
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "2G6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "payment.verification",
+                      "parent_id": "f4b5622b-0803-4f18-99e2-1c73d3506528"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "81133353-80d9-46a7-bcaa-216be1a762c4",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 243514.1245589624
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "2W6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "db",
+                      "event_name": "order.create",
+                      "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "ab7ea9af-7bb7-42ea-8d4d-56affb21b63b",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 227170.8864234955
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "3W6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "db",
+                      "event_name": "db.user_stats_update",
+                      "parent_id": "f2e0451e-2e52-408a-9d13-2e29eb7b5a03"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "d704b00b-5745-424b-82a3-370039b06a65",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 416479.9881478905
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "6G6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "external",
+                      "event_name": "payment.gateway.call",
+                      "parent_id": "f4b5622b-0803-4f18-99e2-1c73d3506528"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "e23afde8-2e70-4ba9-aa5f-666623e1987a",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 242108.07429309745
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "2m6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "db",
+                      "event_name": "db.order_create",
+                      "parent_id": "81133353-80d9-46a7-bcaa-216be1a762c4"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "f2e0451e-2e52-408a-9d13-2e29eb7b5a03",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 228618.80196789742
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "226Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "db",
+                      "event_name": "user.stats.update",
+                      "parent_id": "7950ab1f-bbfa-47ef-8e75-a21ab56d2702"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "f4b5622b-0803-4f18-99e2-1c73d3506528",
+            "doc_count": 40246,
+            "eventdurationavg": {
+              "value": 560124.2313024896
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 40246,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "526Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "payment.process",
+                      "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "4bff1ecf-17ac-4393-ab86-20898fcb74a2",
+            "doc_count": 37367,
+            "eventdurationavg": {
+              "value": 169801.39061203736
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 37367,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "3m6Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "user.recommendations.update",
+                      "parent_id": "7950ab1f-bbfa-47ef-8e75-a21ab56d2702"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "c6beac9b-34fb-488f-aca0-e7bffaa9c147",
+            "doc_count": 37367,
+            "eventdurationavg": {
+              "value": 168189.73211657346
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 37367,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "326Eb5MBIzgQsXofaB1C",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "db",
+                      "event_name": "db.recommendation_update",
+                      "parent_id": "4bff1ecf-17ac-4393-ab86-20898fcb74a2"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "549e7e81-229a-413f-8acc-f1296ff8ada1",
+            "doc_count": 25851,
+            "eventdurationavg": {
+              "value": 169707.51154694209
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 25851,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "gG6Eb5MBIzgQsXofdyCx",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "inventory.product.5",
+                      "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "4c137d69-6064-4f98-923d-e881fb7100ca",
+            "doc_count": 23550,
+            "eventdurationavg": {
+              "value": 144555.72573248408
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 23550,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "f26Eb5MBIzgQsXofdyCx",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "inventory.product.2",
+                      "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "9aee891e-e199-404a-90d0-31f4b6e1a236",
+            "doc_count": 23550,
+            "eventdurationavg": {
+              "value": 161514.50382165605
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 23550,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "e26Eb5MBIzgQsXofdyCx",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "inventory.product.1",
+                      "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "aa77e5a6-b870-42d5-9b58-38ed3e696d5b",
+            "doc_count": 20671,
+            "eventdurationavg": {
+              "value": 349925.1067195588
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 20671,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "em6Eb5MBIzgQsXofZRyR",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "notifications.send",
+                      "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "e205d02c-c078-4950-b283-6b047a0e8b94",
+            "doc_count": 20671,
+            "eventdurationavg": {
+              "value": 159812.34381500652
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 20671,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "8W6Eb5MBIzgQsXofdyLD",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "external",
+                      "event_name": "email.order_confirmation",
+                      "parent_id": "aa77e5a6-b870-42d5-9b58-38ed3e696d5b"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "bc5c37b6-2d42-414a-b397-14aeee3f97bf",
+            "doc_count": 17792,
+            "eventdurationavg": {
+              "value": 445919.68772482016
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 17792,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "gW6Eb5MBIzgQsXofZBlA",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "inventory.check",
+                      "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "bee4de41-904f-4410-8273-2a074bc04448",
+            "doc_count": 13817,
+            "eventdurationavg": {
+              "value": 172071.1173192444
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 13817,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "j26Eb5MBIzgQsXofZRyR",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "inventory.product.4",
+                      "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "44925ac4-cdc8-4921-91bc-1d3f0a4ec24c",
+            "doc_count": 5758,
+            "eventdurationavg": {
+              "value": 171037.5
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 5758,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "S26Eb5MBIzgQsXofZRyR",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "inventory.product.3",
+                      "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "144f596e-2171-40e2-84ec-425f152b0756",
+            "doc_count": 1208,
+            "eventdurationavg": {
+              "value": 385712
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 1208,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "mG6Cb5MBIzgQsXofRBRA",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "refund_processing",
+                      "parent_id": "fafa05ae-548c-45dc-b165-2f744a4ef7cb"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "32edeac6-679e-46d3-a8fc-b34a06c0661a",
+            "doc_count": 1208,
+            "eventdurationavg": {
+              "value": 165994
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 1208,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "l26Cb5MBIzgQsXofRBRA",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "refund_validation",
+                      "parent_id": "fafa05ae-548c-45dc-b165-2f744a4ef7cb"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "4760460e-85e0-4c66-add4-4cadd0864777",
+            "doc_count": 1208,
+            "eventdurationavg": {
+              "value": 244157
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 1208,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "mW6Cb5MBIzgQsXofRBRA",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "account_credit",
+                      "parent_id": "fafa05ae-548c-45dc-b165-2f744a4ef7cb"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "fafa05ae-548c-45dc-b165-2f744a4ef7cb",
+            "doc_count": 1208,
+            "eventdurationavg": {
+              "value": 797106
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 1208,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "lm6Cb5MBIzgQsXofRBRA",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "transaction",
+                      "event_subtype": "automatic_refund",
+                      "event_name": "automatic_refund"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "4e1663b8-4dd6-4572-a047-a4e681212339",
+            "doc_count": 117,
+            "eventdurationavg": {
+              "value": 797106
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 117,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "sCOybpMBpUr6gp8QI06p",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "transaction",
+                      "event_subtype": "automatic_refund",
+                      "event_name": "automatic_refund"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "7d148527-2caf-45f5-bb0f-180b165eef7e",
+            "doc_count": 117,
+            "eventdurationavg": {
+              "value": 385712
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 117,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "siOybpMBpUr6gp8QI06p",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "refund_processing",
+                      "parent_id": "4e1663b8-4dd6-4572-a047-a4e681212339"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "b480a60f-5c2e-473c-94e5-bdf7d2217ecb",
+            "doc_count": 117,
+            "eventdurationavg": {
+              "value": 244157
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 117,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "syOybpMBpUr6gp8QI06p",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "account_credit",
+                      "parent_id": "4e1663b8-4dd6-4572-a047-a4e681212339"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": "fdca8622-1ac6-4438-b5a5-8cf56bf3d2ee",
+            "doc_count": 117,
+            "eventdurationavg": {
+              "value": 165994
+            },
+            "trf": {
+              "hits": {
+                "total": {
+                  "value": 117,
+                  "relation": "eq"
+                },
+                "max_score": 1,
+                "hits": [
+                  {
+                    "_index": "global_index",
+                    "_id": "sSOybpMBpUr6gp8QI06p",
+                    "_score": 1,
+                    "_source": {
+                      "service": {
+                        "name": "ecommerce-service"
+                      },
+                      "event_type": "span",
+                      "event_subtype": "app",
+                      "event_name": "refund_validation",
+                      "parent_id": "4e1663b8-4dd6-4572-a047-a4e681212339"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "time_start": "2024-11-25T21:00:00.000Z",
+    "time_end": "2024-12-03T09:00:00.000Z"
+  }
