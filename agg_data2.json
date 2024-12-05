@@ -1,0 +1,949 @@
+{
+  "took": 11183,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "eventids": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "e3548359-39c5-4e2e-b333-7fa89c2f29b0",
+          "doc_count": 190656,
+          "total_events": {
+            "value": 190656
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 152640.59440038603
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 190656,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "xxoakZMBfuodpf4Em5jW",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "db",
+                    "event_name": "db.inventory_check",
+                    "parent_id": "44925ac4-cdc8-4921-91bc-1d3f0a4ec24c"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "6c76d65d-7107-4d4f-835f-e8b1a49918d5",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 1938518.5520609033
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "xhoakZMBfuodpf4Em5jW",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "transaction",
+                    "event_subtype": "checkout",
+                    "event_name": "checkout"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "7950ab1f-bbfa-47ef-8e75-a21ab56d2702",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 421061.23758387397
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "pBoakZMBfuodpf4EpKIf",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "user.profile.update",
+                    "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "80e8e4dd-6f67-4215-806f-92df2f6b6e7c",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 148164.9423891752
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "JRoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "payment.verification",
+                    "parent_id": "f4b5622b-0803-4f18-99e2-1c73d3506528"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "81133353-80d9-46a7-bcaa-216be1a762c4",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 218652.19196199102
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "JxoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "db",
+                    "event_name": "order.create",
+                    "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "ab7ea9af-7bb7-42ea-8d4d-56affb21b63b",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 210202.05219287888
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "KBoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "db",
+                    "event_name": "db.user_stats_update",
+                    "parent_id": "f2e0451e-2e52-408a-9d13-2e29eb7b5a03"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "d704b00b-5745-424b-82a3-370039b06a65",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 409155.816262173
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "NxoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "external",
+                    "event_name": "payment.gateway.call",
+                    "parent_id": "f4b5622b-0803-4f18-99e2-1c73d3506528"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "e23afde8-2e70-4ba9-aa5f-666623e1987a",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 217004.8580081408
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "JhoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "db",
+                    "event_name": "db.order_create",
+                    "parent_id": "81133353-80d9-46a7-bcaa-216be1a762c4"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "f2e0451e-2e52-408a-9d13-2e29eb7b5a03",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 212296.2226914688
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "oxoakZMBfuodpf4EpKIf",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "db",
+                    "event_name": "user.stats.update",
+                    "parent_id": "7950ab1f-bbfa-47ef-8e75-a21ab56d2702"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "f4b5622b-0803-4f18-99e2-1c73d3506528",
+          "doc_count": 71983,
+          "total_events": {
+            "value": 71983
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 560202.4802800661
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71983,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "OBoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "payment.process",
+                    "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "2dacd86a-c278-40b6-a006-6ef28f2aef01",
+          "doc_count": 71982,
+          "total_events": {
+            "value": 71982
+          },
+          "failures": {
+            "doc_count": 1238,
+            "failure_count": {
+              "value": 1238
+            }
+          },
+          "eventdurationavg": {
+            "value": 157373.42261954377
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 71982,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "xRoakZMBfuodpf4Em5jW",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "external",
+                    "event_name": "push.notification",
+                    "parent_id": "aa77e5a6-b870-42d5-9b58-38ed3e696d5b"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 1.7198744130477066
+          }
+        },
+        {
+          "key": "c6beac9b-34fb-488f-aca0-e7bffaa9c147",
+          "doc_count": 68269,
+          "total_events": {
+            "value": 68269
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 202840.2562363591
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 68269,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "phoakZMBfuodpf4EpKIf",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "db",
+                    "event_name": "db.recommendation_update",
+                    "parent_id": "4bff1ecf-17ac-4393-ab86-20898fcb74a2"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "4bff1ecf-17ac-4393-ab86-20898fcb74a2",
+          "doc_count": 67650,
+          "total_events": {
+            "value": 67650
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 204802.0966149298
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 67650,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "1hoakZMBfuodpf4Em5jW",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "user.recommendations.update",
+                    "parent_id": "7950ab1f-bbfa-47ef-8e75-a21ab56d2702"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "aa77e5a6-b870-42d5-9b58-38ed3e696d5b",
+          "doc_count": 44892,
+          "total_events": {
+            "value": 44892
+          },
+          "failures": {
+            "doc_count": 1238,
+            "failure_count": {
+              "value": 1238
+            }
+          },
+          "eventdurationavg": {
+            "value": 303662.3717811637
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 44892,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "xBoakZMBfuodpf4Em5jW",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "notifications.send",
+                    "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 2.7577296623006324
+          }
+        },
+        {
+          "key": "9aee891e-e199-404a-90d0-31f4b6e1a236",
+          "doc_count": 43062,
+          "total_events": {
+            "value": 43062
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 156757.7975709442
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 43062,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "7hoakZMBfuodpf4Em5jW",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "inventory.product.1",
+                    "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "549e7e81-229a-413f-8acc-f1296ff8ada1",
+          "doc_count": 42623,
+          "total_events": {
+            "value": 42623
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 156676.9513877484
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 42623,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "rxoakZMBfuodpf4EpKIf",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "inventory.product.5",
+                    "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "4c137d69-6064-4f98-923d-e881fb7100ca",
+          "doc_count": 41416,
+          "total_events": {
+            "value": 41416
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 154310.12642457022
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 41416,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "IhoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "inventory.product.2",
+                    "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "e205d02c-c078-4950-b283-6b047a0e8b94",
+          "doc_count": 35694,
+          "total_events": {
+            "value": 35694
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 158660.25757830447
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 35694,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "NhoakZMBfuodpf4Em5nW",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "external",
+                    "event_name": "email.order_confirmation",
+                    "parent_id": "aa77e5a6-b870-42d5-9b58-38ed3e696d5b"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "bee4de41-904f-4410-8273-2a074bc04448",
+          "doc_count": 24407,
+          "total_events": {
+            "value": 24407
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 154852.6907034867
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 24407,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "JxoakZMBfuodpf4Em5nW",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "inventory.product.4",
+                    "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "bc5c37b6-2d42-414a-b397-14aeee3f97bf",
+          "doc_count": 24047,
+          "total_events": {
+            "value": 24047
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 381484.5297958165
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 24047,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "VxoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "inventory.check",
+                    "parent_id": "6c76d65d-7107-4d4f-835f-e8b1a49918d5"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        },
+        {
+          "key": "44925ac4-cdc8-4921-91bc-1d3f0a4ec24c",
+          "doc_count": 21959,
+          "total_events": {
+            "value": 21959
+          },
+          "failures": {
+            "doc_count": 0,
+            "failure_count": {
+              "value": 0
+            }
+          },
+          "eventdurationavg": {
+            "value": 151473.2815246596
+          },
+          "trf": {
+            "hits": {
+              "total": {
+                "value": 21959,
+                "relation": "eq"
+              },
+              "max_score": 1,
+              "hits": [
+                {
+                  "_index": "global_index",
+                  "_id": "XBoakZMBfuodpf4EnJo3",
+                  "_score": 1,
+                  "_source": {
+                    "service": {
+                      "name": "ecommerce-service"
+                    },
+                    "event_type": "span",
+                    "event_subtype": "app",
+                    "event_name": "inventory.product.3",
+                    "parent_id": "bc5c37b6-2d42-414a-b397-14aeee3f97bf"
+                  }
+                }
+              ]
+            }
+          },
+          "failure_percentage": {
+            "value": 0
+          }
+        }
+      ]
+    }
+  }
+}
